@@ -1,0 +1,1113 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'ko' Physical Memory: 14029 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Github/Bomb_Defuse/bomb_defuse
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+53157
+Successfully changed project path to: C:/Github/Bomb_Defuse/bomb_defuse
+C:/Github/Bomb_Defuse/bomb_defuse
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11020] Host "[IP] 192.168.35.21 [Port] 0 [Flags] 2 [Guid] 4225331567 [EditorId] 4225331567 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N2QF8GE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11020] Host "[IP] 192.168.35.21 [Port] 0 [Flags] 2 [Guid] 4225331567 [EditorId] 4225331567 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N2QF8GE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Github/Bomb_Defuse/bomb_defuse/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004915 seconds.
+- Loaded All Assemblies, in  0.287 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 545ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (72ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (206ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Github\Bomb_Defuse\bomb_defuse\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Github\Bomb_Defuse\bomb_defuse\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.696 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.482 seconds
+Domain Reload Profiling: 1177ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (257ms)
+				TypeCache.ScanAssembly (247ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (482ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (60.3 KB). Loaded Objects now: 3591.
+Memory consumption went from 122.1 MB to 122.1 MB.
+Total: 2.627300 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.263200 ms  DeleteObjects: 0.096400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 194759.324484 seconds.
+  path: Assets/Camera_event.cs
+  artifactKey: Guid(5b9aa3c4c270c854f83e515423a65856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Camera_event.cs using Guid(5b9aa3c4c270c854f83e515423a65856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4dff951fecece6a13a985bcc13df04ab') in 0.154560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47312867e9424bd5c918a2d90642c85a') in 0.016141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Dither/Editor/PassDrawer.cs
+  artifactKey: Guid(c3c0fc934cc6d8843ab51fbdeeb3f000) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Editor/PassDrawer.cs using Guid(c3c0fc934cc6d8843ab51fbdeeb3f000) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c447502f6e1567bc7d992c1b4e33a064') in 0.012532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Defuse_Button.cs
+  artifactKey: Guid(3ca7d130fe48d68408cc615feaa925db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Defuse_Button.cs using Guid(3ca7d130fe48d68408cc615feaa925db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfd7fa71ac476372218b8e75e00deda8') in 0.015665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '441da26a7358100a2e88922b61910c8e') in 0.027733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dither/Samples/Vol Dither 2.asset
+  artifactKey: Guid(431f948e88793fd44827b76bc6c9bc25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Samples/Vol Dither 2.asset using Guid(431f948e88793fd44827b76bc6c9bc25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebf1af0253e2f9682181439508594d06') in 0.013417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4563d9656fef7a91dfd9f42947968d8e') in 0.023762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd9b192a8751e971f6ee73ed41ecf334') in 0.025782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Timer_Controller.cs
+  artifactKey: Guid(20a5fd2867a2ee742ac735b1abdbe7cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Timer_Controller.cs using Guid(20a5fd2867a2ee742ac735b1abdbe7cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6425f179b94142a6ca3deb290a23739f') in 0.015418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c7a0fd0d372fd1ebee347de81e4fe6b') in 0.024703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Minigame_circle_controller.cs
+  artifactKey: Guid(5cc12fc161b2c01498d337caa368d7e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Minigame_circle_controller.cs using Guid(5cc12fc161b2c01498d337caa368d7e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da12af8c348397ef9bba35d4c63273fa') in 0.016984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Dither/Runtime/Common/Optional.cs
+  artifactKey: Guid(3eada5b8af2e94a4c8a339c681cec60c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Common/Optional.cs using Guid(3eada5b8af2e94a4c8a339c681cec60c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4df7424aa92fd4f4d4232ed97a6f4dbd') in 0.015910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/texture/Materials/circleSector.mat
+  artifactKey: Guid(44adf76a9b6077142af4356bf2712569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/texture/Materials/circleSector.mat using Guid(44adf76a9b6077142af4356bf2712569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52688967f836d0783a8bcef93e6ce4f4') in 0.051362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Dither/Runtime/Common/VolFx.Pass.cs
+  artifactKey: Guid(d95efb55177103e42bbc6a1c88d2ad14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Common/VolFx.Pass.cs using Guid(d95efb55177103e42bbc6a1c88d2ad14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '436bbab5ad86d4afa8bfb2343ad5fe12') in 0.016622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Old building/Materials/white.mat
+  artifactKey: Guid(73ffcf4fb4a49aa409ed9dc23f4faeb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Old building/Materials/white.mat using Guid(73ffcf4fb4a49aa409ed9dc23f4faeb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e586be22bbad1f830ba2481b9c4ac750') in 0.021943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/mini_gameController.cs
+  artifactKey: Guid(4096622ca94fd624fb8f82afb5895614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mini_gameController.cs using Guid(4096622ca94fd624fb8f82afb5895614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2208031ac4c1475335ba3b19ae8f2215') in 0.016525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Dither/Editor/Masking.Editor.asmdef
+  artifactKey: Guid(1b891e534e5dc4e41b36a715b33c332e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Editor/Masking.Editor.asmdef using Guid(1b891e534e5dc4e41b36a715b33c332e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc58745a516d142bd27ff8dd9dc18888') in 0.015075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dither/Samples/Vol Dither 3.asset
+  artifactKey: Guid(d6028f2edc5d07a4e8e781ab8469fe7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Samples/Vol Dither 3.asset using Guid(d6028f2edc5d07a4e8e781ab8469fe7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aac8fcced0d609d34b89d2e1bc7b9308') in 0.014416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Dither/Samples/Bird.jpg
+  artifactKey: Guid(37853af5480aae94192a61857fcfb11d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Samples/Bird.jpg using Guid(37853af5480aae94192a61857fcfb11d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bec353225ed81ac5f256538a0dfe3a63') in 0.063940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-one-bit-moonbeam-1x.png
+  artifactKey: Guid(d8ead7c28cfa1244c892ce6d0f41413e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-one-bit-moonbeam-1x.png using Guid(d8ead7c28cfa1244c892ce6d0f41413e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '257dae2712d36b87c19bb076e9b384f1') in 0.024479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-demichrome-1x.png
+  artifactKey: Guid(0e024042ffd70ba48bb903f8d61be367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-demichrome-1x.png using Guid(0e024042ffd70ba48bb903f8d61be367) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2becbe13244c4f76f8424ab9d482aa61') in 0.026680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-homework-1x.png
+  artifactKey: Guid(f49ca395fe02c524090451c0b20157d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-homework-1x.png using Guid(f49ca395fe02c524090451c0b20157d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66f929c67524574da3489391a3829ce5') in 0.028676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-look-of-horror-1x.png
+  artifactKey: Guid(2af72986f065cc542b1a438e5be27543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-look-of-horror-1x.png using Guid(2af72986f065cc542b1a438e5be27543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07073ea8cd8d1479ea3a1b317160caa6') in 0.026877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-windows-95-256-colours-1x.png
+  artifactKey: Guid(11f01ea7a09ab4247bfc2c48b1fbfa3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-windows-95-256-colours-1x.png using Guid(11f01ea7a09ab4247bfc2c48b1fbfa3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d81f229e3e25f2aa7536e67bc4b7ec3') in 0.027677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Dither/package.json
+  artifactKey: Guid(1f705d46bb1d44241aa760e6cb379d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/package.json using Guid(1f705d46bb1d44241aa760e6cb379d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ef242a3043be5890f4ca78ee4744522') in 0.012735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Old building/Texture/Box001_diffuse.psd
+  artifactKey: Guid(4fd109960784f654f93a7791dcf6c7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Old building/Texture/Box001_diffuse.psd using Guid(4fd109960784f654f93a7791dcf6c7ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1098e48d0e68b7619b20282a327e36f4') in 0.031968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Dither/Samples/UrpDither_Renderer.asset
+  artifactKey: Guid(cc86fb60069f35f4b81b3f871c188bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Samples/UrpDither_Renderer.asset using Guid(cc86fb60069f35f4b81b3f871c188bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6afd36c62eb351b90b03648822364746') in 0.015278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c21db799ef55859bb63509dbfa8fb6b') in 0.014122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Dither/Runtime/Masking.Runtime.asmdef
+  artifactKey: Guid(b41d46707e286f345b1da94225a3e167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Masking.Runtime.asmdef using Guid(b41d46707e286f345b1da94225a3e167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eccb397352405a15cb683fa03c9ab648') in 0.015170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dither/Runtime/Dither/Dither.shader
+  artifactKey: Guid(0e83aac3b775ca94b92d8aaafbad155e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Dither.shader using Guid(0e83aac3b775ca94b92d8aaafbad155e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0233bfa81eb5fef655d02478df001ad') in 0.016740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-candied-heart-1x.png
+  artifactKey: Guid(861830559eea949468703fb7236f8ea7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-candied-heart-1x.png using Guid(861830559eea949468703fb7236f8ea7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5999c976bb97e4759854c002c2c2f922') in 0.029516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-lospec500-1x.png
+  artifactKey: Guid(c63edb96a6b1a8848bae3473b9ce47e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-lospec500-1x.png using Guid(c63edb96a6b1a8848bae3473b9ce47e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2736d133ba8dc5d34731ec78b549cbde') in 0.026234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/minigame_UpdownControllerLine.cs
+  artifactKey: Guid(adf1322c1b4dff441a59fb2823d3e68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/minigame_UpdownControllerLine.cs using Guid(adf1322c1b4dff441a59fb2823d3e68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45d8390274ed8546ace6d822fca97334') in 0.017747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec65a1fbe1de226ade929729cb7d2a27') in 0.022309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/texture/Materials/istockphoto-612373206-612x612.mat
+  artifactKey: Guid(13bf7f0c5470ab744b35f3c1f5790f0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/texture/Materials/istockphoto-612373206-612x612.mat using Guid(13bf7f0c5470ab744b35f3c1f5790f0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '090c0fe7039dfb745aaa85e8e262ec55') in 0.018882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b521ce9324dc6189cc6e41e706f59f3') in 0.045358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b88d40516827678206f2f93e6406a052') in 0.023660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f74b39e0dadf0880c86a3227ec11b07') in 0.030414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Pattern/dither-pattern-d.png
+  artifactKey: Guid(577aff5af15489e4bb8c0cc1316a4bb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Pattern/dither-pattern-d.png using Guid(577aff5af15489e4bb8c0cc1316a4bb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3de63081ac99acd29b2b58223223a31') in 0.025928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Pattern/dither-pattern-c.png
+  artifactKey: Guid(4447a658999a59a43be6ea0e7edbf1c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Pattern/dither-pattern-c.png using Guid(4447a658999a59a43be6ea0e7edbf1c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74c1daa1e7065982e9707c8e980ae9b6') in 0.032958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72624e21b33d6a2372458e1f1381579c') in 0.019971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Dither/Samples/Vol Dither Test.asset
+  artifactKey: Guid(9b16b379879f64d48a8552d7c162fd49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Samples/Vol Dither Test.asset using Guid(9b16b379879f64d48a8552d7c162fd49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca8153be87e546017ca0cd976aeea967') in 0.014159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Old building/Materials/black.mat
+  artifactKey: Guid(daf578abbab464f4eb1a2424ce9e66a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Old building/Materials/black.mat using Guid(daf578abbab464f4eb1a2424ce9e66a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd427c7a61e474581b79316f9ce35700f') in 0.015575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Dither/Readme.pdf
+  artifactKey: Guid(7cd208c1f1ae0f04680d83c2b5e7fd34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Readme.pdf using Guid(7cd208c1f1ae0f04680d83c2b5e7fd34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fa6b70ede6221687240f4b4970ddcc2') in 0.014666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06e5b7b01466cc1839a7d716af816b40') in 0.019177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/texture/Materials/redButton.mat
+  artifactKey: Guid(89aa8d7c66ccab44d952182fcc332284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/texture/Materials/redButton.mat using Guid(89aa8d7c66ccab44d952182fcc332284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66174565f0436a15bccef6c68d1b9acf') in 0.018924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Dither/Runtime/Common/CurveParameter.cs
+  artifactKey: Guid(9ab21e9178af65f489a198d3f8aef442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Common/CurveParameter.cs using Guid(9ab21e9178af65f489a198d3f8aef442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e127acdfcf990b2bb91af41541d597d8') in 0.018308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/texture/istockphoto-612373206-612x612.jpg
+  artifactKey: Guid(03c228f81c610dc4eb5691ae72de452a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/texture/istockphoto-612373206-612x612.jpg using Guid(03c228f81c610dc4eb5691ae72de452a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a861b8f50b46bd999828cf485e9b97b') in 0.035657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-tiefling20-1x.png
+  artifactKey: Guid(6010806e07af2de448d2bee01b9f2098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-tiefling20-1x.png using Guid(6010806e07af2de448d2bee01b9f2098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c8e1ede98e0158b700a225338c551a1') in 0.031685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003426 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Pattern/dither-pattern-b.png
+  artifactKey: Guid(d2562c86660217f49bab2988e6c868e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Pattern/dither-pattern-b.png using Guid(d2562c86660217f49bab2988e6c868e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f3549258c5050a9819dbdc0bfe75ef5') in 0.027338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/texture/Materials/white.mat
+  artifactKey: Guid(1775727ffd46fdd439bc7223c3219e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/texture/Materials/white.mat using Guid(1775727ffd46fdd439bc7223c3219e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c959eb37f1395dce5a78ac2885f2ab9') in 0.019024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-citrink-1x.png
+  artifactKey: Guid(292b700d95da9794ca16ed2fe2bff43b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-citrink-1x.png using Guid(292b700d95da9794ca16ed2fe2bff43b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b6097035de3905f139c12e15e5cd52e') in 0.028513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fbd41c0125320f4598d48938e9c5c43') in 0.024785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002957 seconds.
+  path: Assets/font/Seven Segment SDF.asset
+  artifactKey: Guid(1a0b6bbf085524e44ba9d3b6317c3e62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/font/Seven Segment SDF.asset using Guid(1a0b6bbf085524e44ba9d3b6317c3e62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20616d7ad4a7fe27ddadfc2ddab441c3') in 0.050418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/minigame_inputbutton.cs
+  artifactKey: Guid(b3d57136016e07141b044c847b6ba727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/minigame_inputbutton.cs using Guid(b3d57136016e07141b044c847b6ba727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac13c26cfcf2d33285b6f631bf5d3f76') in 0.016168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Old building/Texture/Box001_specular.psd
+  artifactKey: Guid(78d15fa463fc99a4eb5b8889b894818b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Old building/Texture/Box001_specular.psd using Guid(78d15fa463fc99a4eb5b8889b894818b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6b69d97023c36b63f0ef9b397b5a733') in 0.034316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Pattern/dither-pattern-a.png
+  artifactKey: Guid(a7ad2a875f5fcf442a267169bae8f2bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Pattern/dither-pattern-a.png using Guid(a7ad2a875f5fcf442a267169bae8f2bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22ba234d26a497b591ba69e4b382a365') in 0.030001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/minigame_circle.cs
+  artifactKey: Guid(ae86680b66436c84db63e9ca41d662b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/minigame_circle.cs using Guid(ae86680b66436c84db63e9ca41d662b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9df2f817c079f12a69ece5fabdca6ea6') in 0.016343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c58cce5ee2e2ae3b7c38a5efe190d991') in 0.019488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dither/Runtime/Common/CurveValue.cs
+  artifactKey: Guid(a39fe1b8372afa94f8ae6d80e9c007fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Common/CurveValue.cs using Guid(a39fe1b8372afa94f8ae6d80e9c007fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e15c09f6d06da37759b897733f6b5b8') in 0.015685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-dream-haze-8-1x.png
+  artifactKey: Guid(e04c0347fe1c4ec4ba8b4facf62db314) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-dream-haze-8-1x.png using Guid(e04c0347fe1c4ec4ba8b4facf62db314) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '408c4fd2ee76db5c6d0cd3753d3f5447') in 0.025461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Dither/Runtime/Common/GradientParameter.cs
+  artifactKey: Guid(2454c7b2232239b45998f6f4ba0c9432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Common/GradientParameter.cs using Guid(2454c7b2232239b45998f6f4ba0c9432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6512a911f8a53faeaf37276122d7bb3') in 0.015094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/texture/istockphoto-1166367962-612x612.jpg
+  artifactKey: Guid(d4f5c6f471792e443b899ae99d10769c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/texture/istockphoto-1166367962-612x612.jpg using Guid(d4f5c6f471792e443b899ae99d10769c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb1a943048e15a305f2468d93db12f46') in 0.026217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-synthwave-9-1x.png
+  artifactKey: Guid(5b3d4d134b122e643b0af9e3135ea9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-synthwave-9-1x.png using Guid(5b3d4d134b122e643b0af9e3135ea9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1f6a78d654ab7d0764247073a804b51') in 0.025795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3af96eab4cc0000fa732993d113931fc') in 0.021566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f7ffd1c77bddb815168959e6f9bbb77') in 0.020654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Old building/Materials/Box001_diffuse.mat
+  artifactKey: Guid(692a7b039d805a649a06d7e480a3078c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Old building/Materials/Box001_diffuse.mat using Guid(692a7b039d805a649a06d7e480a3078c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7440919b8db74f8ffa62caca95537e88') in 0.037736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-petes-palette-1x.png
+  artifactKey: Guid(625fb78b08cd77e4eb4237174286435d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-petes-palette-1x.png using Guid(625fb78b08cd77e4eb4237174286435d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '107d35b05176712ba1c0451316fd6323') in 0.025747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Dither/Editor/GradientDrawer.cs
+  artifactKey: Guid(1055569e3349d5e42b2738670f17c1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Editor/GradientDrawer.cs using Guid(1055569e3349d5e42b2738670f17c1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae15c22ef3a215fe6b0dc3d7ed70b4ef') in 0.013940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Dither/Runtime/Dither/Data/Palette/dither-rust-gold-8-1x.png
+  artifactKey: Guid(3a436cbecf4a7384193a3eaef7ac52dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Dither/Runtime/Dither/Data/Palette/dither-rust-gold-8-1x.png using Guid(3a436cbecf4a7384193a3eaef7ac52dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61e4fa2063bbf0ef4281e1fdd26294c1') in 0.028312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (32.4 KB). Loaded Objects now: 3594.
+Memory consumption went from 74.8 MB to 74.8 MB.
+Total: 6.465500 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.289300 ms MarkObjects: 5.703300 ms  DeleteObjects: 0.101900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150.778360 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/models/Phasmaphobia_Semi.fbx
+  artifactKey: Guid(d520f065131de7a42b814c4a11e7a89e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/models/Phasmaphobia_Semi.fbx using Guid(d520f065131de7a42b814c4a11e7a89e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c993b68cc9b496368763ad93a0fd6a1') in 0.112364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/materials/Chair.mat
+  artifactKey: Guid(5a68424c8258299498d5b8e454016217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/materials/Chair.mat using Guid(5a68424c8258299498d5b8e454016217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Vertex Lit Cutout': fallback shader 'PSX/Lite/Vertex Lit Cutout' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae6d94f6202c899194f4b258c1ae00ac') in 0.019722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PSXShaderKit/Shaders/PSX-Lite-VertexLit.shader
+  artifactKey: Guid(7df62e33d3d17584ab47e30a7e668103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/PSX-Lite-VertexLit.shader using Guid(7df62e33d3d17584ab47e30a7e668103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Lite/Vertex Lit': fallback shader 'PSX/Lite/Unlit' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02bb69336fa5e3e9fe4aeaf12a0b38b1') in 0.023736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PSXShaderKit/Shaders/PSX-ShaderSrc-Lite.cginc
+  artifactKey: Guid(f3bdb98da83f5024dbc6d0ec7a1b962d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/PSX-ShaderSrc-Lite.cginc using Guid(f3bdb98da83f5024dbc6d0ec7a1b962d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5605e15bfce433af3e5bc439a696e28c') in 0.015553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/models
+  artifactKey: Guid(2cffec4846c656745b84ab51195bb9fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/models using Guid(2cffec4846c656745b84ab51195bb9fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f4e32d1704e0ab71c48e2146657c415') in 0.014762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PSXShaderKit/Shaders/ImageEffects/PSX-PostProcess.shader
+  artifactKey: Guid(56d52fd5b7c6911468179e5a7359ce0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/ImageEffects/PSX-PostProcess.shader using Guid(56d52fd5b7c6911468179e5a7359ce0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5aa62b2e56b58f1878f6878fc76c12f') in 0.018745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/HouseModel.prefab
+  artifactKey: Guid(56e88173fb5087f49afceeb024b96138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/HouseModel.prefab using Guid(56e88173fb5087f49afceeb024b96138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8360940dd8b9438a0ccb30438d29d986') in 0.019344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PSXShaderKit/Shaders/ImageEffects/PSX-PostProcess-Accurate.shader
+  artifactKey: Guid(2ebed186567d3c244a87538744a62920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/ImageEffects/PSX-PostProcess-Accurate.shader using Guid(2ebed186567d3c244a87538744a62920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39ccd95ffbd0c43543b3994598918f47') in 0.018860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/textures/TableStuff.png
+  artifactKey: Guid(075025bcabcf9d645819382ef461b7f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/textures/TableStuff.png using Guid(075025bcabcf9d645819382ef461b7f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b380a15d11c00721dcf04ab3ed58ba00') in 0.029536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/PSXShaderKit/Shaders/PSX-UnlitTransparent.shader
+  artifactKey: Guid(6d8be05a69d81144c88ad535cddbc868) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/PSX-UnlitTransparent.shader using Guid(6d8be05a69d81144c88ad535cddbc868) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Unlit Transparent': fallback shader 'PSX/Lite/Unlit Transparent' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97204340938f41e7727a605a04597e30') in 0.017741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PSXShaderKit/Shaders/PSX-Unlit Transparent.shader
+  artifactKey: Guid(1b37d1cf11328ee44a1de83f6c28fbe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/PSX-Unlit Transparent.shader using Guid(1b37d1cf11328ee44a1de83f6c28fbe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d4e8e41b87028fba3d8cd6211a0317d') in 0.017623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PSXShaderKit/Shaders/PSX-ShaderSrc.cginc
+  artifactKey: Guid(c8d073cae7a4ac2448815a579ab52ac2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/PSX-ShaderSrc.cginc using Guid(c8d073cae7a4ac2448815a579ab52ac2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89a7786b42691fb1abc13e3e8df5989a') in 0.014039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/materials/Black_Window.mat
+  artifactKey: Guid(353617353f25c10469685036b429283a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/materials/Black_Window.mat using Guid(353617353f25c10469685036b429283a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Vertex Lit Cutout': fallback shader 'PSX/Lite/Vertex Lit Cutout' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c71c45d3f068d170c6011cd720df503') in 0.019883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/materials/LivingRoomLamp.mat
+  artifactKey: Guid(d022ab63f2290b8489c9c29980037f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/materials/LivingRoomLamp.mat using Guid(d022ab63f2290b8489c9c29980037f3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Vertex Lit Cutout': fallback shader 'PSX/Lite/Vertex Lit Cutout' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6739b78d8dc4edfc9bcaf068dd24be8d') in 0.028216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PSXShaderKit/README.rtf
+  artifactKey: Guid(d604a0337fded8047919cb0657b163c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/README.rtf using Guid(d604a0337fded8047919cb0657b163c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea3f3b62aa8005a29d802b98c65c1e49') in 0.013081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/materials/white.mat
+  artifactKey: Guid(e4e916f728b0f664fb5cb8ad6a7d4064) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/materials/white.mat using Guid(e4e916f728b0f664fb5cb8ad6a7d4064) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Vertex Lit Cutout': fallback shader 'PSX/Lite/Vertex Lit Cutout' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc8007f80060e1d62e70b986934579ec') in 0.020814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/textures/WallsFloorRoofExtras.png
+  artifactKey: Guid(63ddf342ce676a94794b088ec718973f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/textures/WallsFloorRoofExtras.png using Guid(63ddf342ce676a94794b088ec718973f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d0eae79a2b01dcfdab25d2d2fccadbc') in 0.027738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/materials/Table Stuff.mat
+  artifactKey: Guid(aea193f4198b51a4dbc93fad41254882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/materials/Table Stuff.mat using Guid(aea193f4198b51a4dbc93fad41254882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Vertex Lit Cutout': fallback shader 'PSX/Lite/Vertex Lit Cutout' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '298b0c0590ed865bb85075cc6b064672') in 0.022105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PSXShaderKit/Shaders/PSX-Lite-VertexLitTransparent.shader
+  artifactKey: Guid(bf2928017213de74c80eee2649082e99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/PSX-Lite-VertexLitTransparent.shader using Guid(bf2928017213de74c80eee2649082e99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Lite/Vertex Lit Transparent': fallback shader 'PSX/Lite/Unlit Transparent' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcf83298df51b782676c94a5c73ab69a') in 0.020071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PSXShaderKit/Demo/SpookyOrbFloat.cs
+  artifactKey: Guid(5d73a146f3ca4b743a30731e7bfcc1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/SpookyOrbFloat.cs using Guid(5d73a146f3ca4b743a30731e7bfcc1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfbb207c657689fdbeee08b4d2b8114c') in 0.016898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PSXShaderKit/Shaders/PSX-VertexLitTransparentCutout.shader
+  artifactKey: Guid(9181994163c66fe4589a653f9b74a0e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/PSX-VertexLitTransparentCutout.shader using Guid(9181994163c66fe4589a653f9b74a0e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Vertex Lit Cutout': fallback shader 'PSX/Lite/Vertex Lit Cutout' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0319588135aa95d061fa10c0e09d4d2e') in 0.018721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/materials/Cabet_Table.mat
+  artifactKey: Guid(72ead2ca03f46af4d83514f47d77d871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/materials/Cabet_Table.mat using Guid(72ead2ca03f46af4d83514f47d77d871) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Vertex Lit Cutout': fallback shader 'PSX/Lite/Vertex Lit Cutout' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '602fd7b0e56a86092dc22ad9f81a42b6') in 0.019580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PSXShaderKit/Shaders/PSX-Unlit.shader
+  artifactKey: Guid(1cce61915faddf94b8d35a1f80969b02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/PSX-Unlit.shader using Guid(1cce61915faddf94b8d35a1f80969b02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Unlit': fallback shader 'PSX/Lite/Unlit' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '570a0b66a65d476eef4e98fa3ef24fe6') in 0.019201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/textures
+  artifactKey: Guid(595adf9d652dbe94fa007d470f51341b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/textures using Guid(595adf9d652dbe94fa007d470f51341b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07b13d8e384e854cca0111c81caedb33') in 0.014617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PSXShaderKit/Demo/Demo Scene.unity
+  artifactKey: Guid(fcde39c9d7f2d954b9c02d05b59a9a83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Demo Scene.unity using Guid(fcde39c9d7f2d954b9c02d05b59a9a83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbe652a4fdd9a0947eae777ee067e5e5') in 0.015677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/textures/checkerboard.png
+  artifactKey: Guid(478938c4558927f4aae88032ab95d490) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/textures/checkerboard.png using Guid(478938c4558927f4aae88032ab95d490) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d529dabe18e33a9bdcd24b499dbfcfe') in 0.027417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/PSXShaderKit/Shaders/PSX-Lite-UnlitTransparent.shader
+  artifactKey: Guid(b74de4bc361e610408cf0082d9d78be5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Shaders/PSX-Lite-UnlitTransparent.shader using Guid(b74de4bc361e610408cf0082d9d78be5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e922747932153c492ef4b3290f3f07bc') in 0.020799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PSXShaderKit
+  artifactKey: Guid(e9a55b24b2ca85942a165969a5ab04f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit using Guid(e9a55b24b2ca85942a165969a5ab04f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af9ea8ee54357a7401b36ef6e54c9628') in 0.014469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PSXShaderKit/Demo/Assets/materials/LivingRoom.TableStuff.mat
+  artifactKey: Guid(c90b327075ede4a4fbe2bcf0af71ce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSXShaderKit/Demo/Assets/materials/LivingRoom.TableStuff.mat using Guid(c90b327075ede4a4fbe2bcf0af71ce64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Shader 'PSX/Vertex Lit Cutout': fallback shader 'PSX/Lite/Vertex Lit Cutout' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56232b57a4b02ff24ec3a3ddb4ebdfbf') in 0.017921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
