@@ -18,7 +18,6 @@ public class Minigame_circle_button : MonoBehaviour,click_event
             {
                 parent.parent.GetComponent<Minigame_circle_controller>().check[minigame.num] = true;
                 parent.parent.GetComponent<Minigame_circle_controller>().clear();
-                Debug.Log("trigger");
                 minigame.trig = false;
             }
         }

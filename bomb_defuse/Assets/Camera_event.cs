@@ -8,11 +8,14 @@ public class Camera_event : MonoBehaviour
     public float minDistance = 5f;
     public float maxDistance = 20f;
 
+    public AudioSource clickSound;
+
     private Camera cameraComponent;
 
     private void Start()
     {
         cameraComponent = GetComponent<Camera>();
+        clickSound = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -43,6 +46,7 @@ public class Camera_event : MonoBehaviour
         {
             if (hit.transform.gameObject.GetComponent<click_event>() != null)
             {
+                clickSound.Play();
                 hit.transform.gameObject.GetComponent<click_event>().click();
             }
         }

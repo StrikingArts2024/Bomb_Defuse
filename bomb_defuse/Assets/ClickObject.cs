@@ -14,3 +14,4 @@ public interface clear_event
 {
     void clear();
 }
+

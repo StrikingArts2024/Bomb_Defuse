@@ -11,7 +11,7 @@ public class minigame_inputbutton : MonoBehaviour,click_event
     public Material[] mat = new Material[3];
 
 
-  
+    AudioSource beepSource;
     
     
     public void click()
@@ -19,15 +19,15 @@ public class minigame_inputbutton : MonoBehaviour,click_event
         float timer=0;
         float waitingTime = 1000f;
 
-        Debug.Log(character);
         if (character.Equals("start"))
         {
             char[] chars = { 'A', 'B', 'C', 'D' };
             int length = 4;
             string randomString = GenerateRandomString(chars, length);
             master_obj.GetComponent<mini_gameController>().key = randomString;
+            master_obj.GetComponent<mini_gameController>().key_inputfield ="";
 
-            
+
 
             StartCoroutine(flashback(randomString));
             
@@ -40,6 +40,7 @@ public class minigame_inputbutton : MonoBehaviour,click_event
     IEnumerator clickflash(GameObject obj)
     {
         obj.GetComponent<MeshRenderer>().material = mat[1];
+        
         yield return new WaitForSeconds(0.6f);
         obj.GetComponent<MeshRenderer>().material = mat[0];
         yield return new WaitForSeconds(0.2f);
@@ -73,6 +74,14 @@ public class minigame_inputbutton : MonoBehaviour,click_event
 
             GameObject obj = buttonlist[convChar];
             obj.GetComponent<MeshRenderer>().material = mat[2];
+            if (beepSource != null)
+            {
+                beepSource.Play();
+            }
+            else
+            {
+                Debug.Log("beep source null");
+            }
             yield return new WaitForSeconds(0.6f);
             obj.GetComponent<MeshRenderer>().material = mat[0];
             yield return new WaitForSeconds(0.2f);
@@ -82,6 +91,7 @@ public class minigame_inputbutton : MonoBehaviour,click_event
     }
     void Start()
     {
+        beepSource = GetComponent<AudioSource>();
         master_obj = this.transform.parent.parent.gameObject;
     }
 

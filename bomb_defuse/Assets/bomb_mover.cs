@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class bomb_mover : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 7f;
     // Start is called before the first frame update
     void Start()
     {
