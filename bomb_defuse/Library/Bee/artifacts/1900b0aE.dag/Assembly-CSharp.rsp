@@ -372,6 +372,7 @@
 "Assets/PSXShaderKit/Demo/SpookyOrbFloat.cs"
 "Assets/PSXShaderKit/Scripts/PSXPostProcessEffect.cs"
 "Assets/PSXShaderKit/Scripts/PSXShaderManager.cs"
+"Assets/resetDisplay.cs"
 "Assets/Timer_Controller.cs"
 -langversion:9.0
 

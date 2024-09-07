@@ -14,7 +14,6 @@ public class Main_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time = 60f;
     }
 
     // Update is called once per frame

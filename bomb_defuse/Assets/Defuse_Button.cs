@@ -10,6 +10,8 @@ public class Defuse_Button : MonoBehaviour, click_event
     public GameObject timer;
     AudioSource audioSource;
 
+    public GameObject resetDisplay;
+
     public void click()
     {
 
@@ -27,6 +29,7 @@ public class Defuse_Button : MonoBehaviour, click_event
         if (cheaker == true)
         {
             timer.GetComponent<Timer_Controller>().isRunning = false;
+            resetDisplay.SetActive(true);
             audioSource.Play();
         }
     }

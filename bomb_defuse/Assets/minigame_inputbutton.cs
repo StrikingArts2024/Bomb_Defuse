@@ -11,6 +11,8 @@ public class minigame_inputbutton : MonoBehaviour,click_event
     public Material[] mat = new Material[3];
 
 
+    public bool coroutine;
+
     AudioSource beepSource;
     
     
@@ -21,16 +23,21 @@ public class minigame_inputbutton : MonoBehaviour,click_event
 
         if (character.Equals("start"))
         {
-            char[] chars = { 'A', 'B', 'C', 'D' };
-            int length = 4;
-            string randomString = GenerateRandomString(chars, length);
-            master_obj.GetComponent<mini_gameController>().key = randomString;
-            master_obj.GetComponent<mini_gameController>().key_inputfield ="";
+            if (coroutine == false)
+            {
+
+                char[] chars = { 'A', 'B', 'C', 'D' };
+                int length = 4;
+                string randomString = GenerateRandomString(chars, length);
+                master_obj.GetComponent<mini_gameController>().key = randomString;
+                master_obj.GetComponent<mini_gameController>().key_inputfield = "";
+
+                StartCoroutine(flashback(randomString));
+
+            }
 
 
 
-            StartCoroutine(flashback(randomString));
-            
         }
         else
         {
@@ -66,6 +73,7 @@ public class minigame_inputbutton : MonoBehaviour,click_event
     }
     IEnumerator flashback(String randomString)
     {
+        coroutine = true;
         GameObject[] buttonlist = master_obj.GetComponent<mini_gameController>().buttonList;
         for (int i = 0; i < randomString.Length; i++)
         {
@@ -87,12 +95,14 @@ public class minigame_inputbutton : MonoBehaviour,click_event
             yield return new WaitForSeconds(0.2f);
 
         }
+        coroutine = false;
         yield return null;
     }
     void Start()
     {
         beepSource = GetComponent<AudioSource>();
         master_obj = this.transform.parent.parent.gameObject;
+        coroutine = false;
     }
 
     string GenerateRandomString(char[] chars, int length)
