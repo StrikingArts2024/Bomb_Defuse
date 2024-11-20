@@ -1,1 +1,0 @@
-REVOKE SELECT ON madangdb.Customer FROM mdguest@localhost;

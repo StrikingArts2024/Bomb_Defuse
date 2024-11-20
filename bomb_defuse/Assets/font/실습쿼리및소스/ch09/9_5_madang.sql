@@ -1,1 +1,0 @@
-GRANT SELECT, UPDATE ON madangdb.Customer TO mdguest@localhost WITH GRANT OPTION;

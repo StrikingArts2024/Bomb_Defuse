@@ -1,1 +1,0 @@
-ALTER TABLE NewBook MODIFY isbn INTEGER;

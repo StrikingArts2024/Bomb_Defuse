@@ -1,1 +1,0 @@
-SELECT	ROUND(4.875, 1);

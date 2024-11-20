@@ -1,1 +1,0 @@
-REVOKE SELECT ON madangdb.Book FROM mdguest@localhost;

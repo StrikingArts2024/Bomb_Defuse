@@ -1,1 +1,0 @@
-ALTER TABLE NewBook ADD PRIMARY KEY(bookid);
